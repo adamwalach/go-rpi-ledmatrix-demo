@@ -18,8 +18,8 @@ func main() {
 		log.Fatal(err)
 	}
 	defer mtx.Close()
-	mtx.OutputAsciiCode(0, font, 1, true)
-
+	mtx.OutputAsciiCode(0, font, 0, true)
+	time.Sleep(500 * time.Millisecond)
 	for {
 		mtx.SlideMessage("Hello, IoT world!  ", max7219.FontCP437, true, 50*time.Millisecond)
 		time.Sleep(1 * time.Second)
