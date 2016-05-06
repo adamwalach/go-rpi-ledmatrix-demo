@@ -1,0 +1,44 @@
+{
+	"ImportPath": "github.com/adamwalach/go-rpi-ledmatrix-demo",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v58",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.10.0",
+			"Rev": "4b6ea7319e214d98c938f12692336f7ca9348d6b"
+		},
+		{
+			"ImportPath": "github.com/adamwalach/go-max7219",
+			"Rev": "0dc6d3189aa509fe8025012120f2ca53c56025bd"
+		},
+		{
+			"ImportPath": "github.com/fulr/spidev",
+			"Rev": "524e13e3fac291abb9aefcf65e5d925da312b6a1"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b776ec39b3e54652e09028aaaaac9757f4f8211a"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding",
+			"Rev": "bd1c9905f55d983c0cd0b15cf0c3e2fe860c8902"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/charmap",
+			"Rev": "bd1c9905f55d983c0cd0b15cf0c3e2fe860c8902"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/internal",
+			"Rev": "bd1c9905f55d983c0cd0b15cf0c3e2fe860c8902"
+		},
+		{
+			"ImportPath": "golang.org/x/text/encoding/internal/identifier",
+			"Rev": "bd1c9905f55d983c0cd0b15cf0c3e2fe860c8902"
+		},
+		{
+			"ImportPath": "golang.org/x/text/transform",
+			"Rev": "bd1c9905f55d983c0cd0b15cf0c3e2fe860c8902"
+		}
+	]
+}
